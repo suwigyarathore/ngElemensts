@@ -4,6 +4,8 @@ This project was generated with [Angular CLI].
 
 This project shows how to compile angular components to angular elements and natively used as web component is React and Angular JS.
 
+![Alt text](/ng-elements.gif "Optional Title")
+
 ## Workflow 
 * Converting Angular Elements in Native Web Component
 

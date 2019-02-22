@@ -1,6 +1,12 @@
 # NgElements
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.3.
+This project was generated with [Angular CLI].
+
+This project shows how to compile angular components to angular elements and natively used as web component is React and Angular JS.
+
+## Workflow 
+* Converting Angular Elements in Native Web Component
+
 
 ## Development server
 

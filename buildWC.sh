@@ -1,2 +1,5 @@
 #!/bin/bash
-ng build ngElements --prod --output-hashing=none && cat dist/ngElements/runtime.js dist/ngElements/polyfills.js dist/ngElements/scripts.js dist/ngElements/main.js > consumer/ngElements.js
+ng build ngElements --prod --output-hashing none --single-bundle true --keep-polyfills true
+mv dist/ngElements/main.js consumer/ngElements.js
+mv dist/ngElements/scripts.js consumer/scripts.js
+mv dist/ngElements/polyfills.js consumer/polyfills.js

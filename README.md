@@ -8,6 +8,7 @@ This project shows how to compile angular components to angular elements and nat
 
 ## Workflow 
 * Converting Angular Elements in Native Web Component
+* Compiling Angular Component into standalone web component
 
 
 ## Development server
